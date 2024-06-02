@@ -19,7 +19,9 @@ The purpose of this repository is to practice Python programming by implementing
 Below is a list of projects implemented so far:
 
 1. [*Bagels*](https://github.com/Amadeus1705/The-Big-Book-of-Small-Python-Projects/blob/main/Chapter1.py) - A deductive logic game where you must guess a number based on clues.
-2. [*Birthday Paradox*](birthday_paradox.py)  - Monte Carlo simulations to estimate the probability of shared birthdays in groups of different sizes.  
+2. [*Birthday Paradox*](birthday_paradox.py)  - Monte Carlo simulations to estimate the probability of shared birthdays in groups of different sizes.
+3. 
+45. [*Million Dice Stats*](million_dice_stats.py) - A Statistical Simulation of 1 million rolls of n-dices  
 
 *More projects will be added as they are completed.*
 
