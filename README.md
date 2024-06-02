@@ -18,7 +18,7 @@ The purpose of this repository is to practice Python programming by implementing
 
 Below is a list of projects implemented so far:
 
-1. [Bagels](https://github.com/Amadeus1705/The-Big-Book-of-Small-Python-Projects/blob/main/Chapter1.py) - A deductive logic game where you must guess a number based on clues.  
+1. [*Bagels*](https://github.com/Amadeus1705/The-Big-Book-of-Small-Python-Projects/blob/main/Chapter1.py) - A deductive logic game where you must guess a number based on clues.  
 
 *More projects will be added as they are completed.*
 
@@ -63,9 +63,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## References
 
 - [The Big Book of Small Python Projects](https://nostarch.com/big-book-small-python-projects) by Al Sweigart
-- [Invent with Python](https://inventwithpython.com/)
-
-Happy Coding!
-```
-
-Make sure to customize the placeholders like `yourusername` with your actual GitHub username and add more projects as you implement them.
