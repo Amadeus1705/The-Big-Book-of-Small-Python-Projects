@@ -15,7 +15,7 @@ lastPrintTime = time.time()
 for i in range(1000000):
     if time.time() > lastPrintTime + 1:
         print('{}% done...'.format(round(i / 10000, 1)))
-        lastPrintTime = time.time()
+        lastPrintTime = time.time() 
 
     total = 0
     for j in range(numberOfDice):
