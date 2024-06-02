@@ -15,7 +15,7 @@ When I say:    That means:
   Bagels       No digit is correct.
 
 For example, if the secret number was 248 and your guess was 843, the
-clues would be Fermi Pico.'''.format(NUM_DIGITS))
+clues would be Fermi Pico.''')
 
     while True:  # Main game loop.
         # This stores the secret number the player needs to guess:
@@ -28,7 +28,7 @@ clues would be Fermi Pico.'''.format(NUM_DIGITS))
             guess = ''
             # Keep looping until they enter a valid guess:
             while len(guess) != NUM_DIGITS or not guess.isdecimal():
-                print('Guess #{}: '.format(numGuesses))
+                print(f'Guess #{numGuesses}: ')
                 guess = input('> ')
 
             clues = getClues(guess, secretNum)
@@ -39,7 +39,7 @@ clues would be Fermi Pico.'''.format(NUM_DIGITS))
                 break  # They're correct, so break out of this loop.
             if numGuesses > MAX_GUESSES:
                 print('You ran out of guesses.')
-                print('The answer was {}.'.format(secretNum))
+                print(f'The answer was {secretNum}.')
 
         # Ask player if they want to play again.
         print('Do you want to play again? (yes or no)')
