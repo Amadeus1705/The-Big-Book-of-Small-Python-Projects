@@ -4,10 +4,10 @@ NUM_DIGITS = 3  # (!) Try setting this to 1 or 10.
 MAX_GUESSES = 10  # (!) Try setting this to 1 or 100.
 
 def main():
-    print('''Bagels, a deductive logic game.
+    print(f'''Bagels, a deductive logic game.
 By Al Sweigart al@inventwithpython.com
 
-I am thinking of a {}-digit number with no repeated digits.
+I am thinking of a {NUM_DIGITS}-digit number with no repeated digits.
 Try to guess what it is. Here are some clues:
 When I say:    That means:
   Pico         One digit is correct but in the wrong position.
